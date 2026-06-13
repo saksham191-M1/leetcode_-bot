@@ -18,5 +18,4 @@ A Chrome extension that helps with LeetCode workflows.
 - JavaScript
 - Chrome Extension Manifest V3
 
-## Screenshots
-(Add screenshots here)
+
