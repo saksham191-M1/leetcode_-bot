@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Note Taker",
+  "version": "1.0",
+  "description": "Scrapes LeetCode and sends to n8n.",
+  "permissions": ["sidePanel", "activeTab", "scripting"],
+  "host_permissions": ["https://leetcode.com/*","https://*.railway.app/*"],
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body { font-family: sans-serif; padding: 15px; background: #f7f7f7; }
+    h2 { margin-top: 0; color: #333; }
+    button {
+      width: 100%;
+      padding: 10px;
+      background: #ffa116; /* LeetCode Orange */
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    }
+    button:hover { background: #e59113; }
+    #status { margin-top: 15px; font-size: 14px; color: #666; }
+    .success { color: green; }
+    .error { color: red; }
+  </style>
+</head>
+<body>
+  <h2>📝 LeetCode Bot</h2>
+  <p>Open a problem, write your solution, then click below.</p>
+  
+  <button id="scanBtn">Analyze & Save to Notion</button>
+  
+  <div id="status">Waiting...</div>
+
+  <script src="sidepanel.js"></script>
+</body>
+</html>
