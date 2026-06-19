@@ -2,10 +2,6 @@
 
 A Chrome extension that helps with LeetCode workflows.
 
-## Features
-- Feature 1
-- Feature 2
-- Feature 3
 
 ## Installation
 1. Clone the repository
